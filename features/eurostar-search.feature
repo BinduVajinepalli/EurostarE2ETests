@@ -19,6 +19,7 @@ Feature: Search for a Train from London to Paris, select the trains and add to b
     And I fill in the passenger details
     Then I should see the selected trains in the basket
 
+  @demo
   Scenario: User should be displayed with an error when they try to search for a tour without return date
     Given I am on Eurostar website
     When I search for train with journey type "Return"
@@ -26,7 +27,7 @@ Feature: Search for a Train from London to Paris, select the trains and add to b
     And I choose start date as "10/12/2017"
     Then I should be displayed with an error
 
-  @demo
+  @demo@demo_paralall
   Scenario: User selects lowest inbound price and lowest outbound price and add to basket
     Given I am on Eurostar website
     When I search for train with journey type "Return"

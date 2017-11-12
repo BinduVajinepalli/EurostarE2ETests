@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nightwatch --tag demo",
     "start:chrome": "nightwatch --tag demo --env chrome",
-    "start:parallel-single-browser": "nightwatch --tag demo_paralall --env chrome",
+    "start:parallel-single-browser": "nightwatch --tag demo_paralall --env chrome,chrome",
     "start:parallel-multiple-browser": "nightwatch --tag demo --env chrome,firefox"
   },
   "author": "Himabindu <bindu_vajinepalli@yahoo.com>",

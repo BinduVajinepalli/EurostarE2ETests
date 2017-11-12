@@ -10,12 +10,16 @@
       {
         "id": "search-for-a-train-from-london-to-paris,-select-the-trains-and-add-to-basket;user-selects-lowest-inbound-price-and-lowest-outbound-price-and-add-to-basket",
         "keyword": "Scenario",
-        "line": 30,
+        "line": 31,
         "name": "User selects lowest inbound price and lowest outbound price and add to basket",
         "tags": [
           {
             "name": "@demo",
-            "line": 29
+            "line": 30
+          },
+          {
+            "name": "@demo_paralall",
+            "line": 30
           }
         ],
         "type": "scenario",
@@ -23,131 +27,131 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 31,
+            "line": 32,
             "name": "I am on Eurostar website",
             "match": {
               "location": "step_definitions/steps.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 8904
+              "duration": 7554
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 32,
+            "line": 33,
             "name": "I search for train with journey type \"Return\"",
             "match": {
               "location": "step_definitions/steps.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1196
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 33,
-            "name": "I search for a train from \"London\" to \"Paris\"",
-            "match": {
-              "location": "step_definitions/steps.js:22"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 2162
+              "duration": 329
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 34,
-            "name": "I search from \"10/12/2017\" to \"14/12/2017\"",
+            "name": "I search for a train from \"London\" to \"Paris\"",
             "match": {
-              "location": "step_definitions/steps.js:34"
+              "location": "step_definitions/steps.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 1943
+              "duration": 1128
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 35,
-            "name": "I add a cheapest outbound price",
+            "name": "I search from \"10/12/2017\" to \"14/12/2017\"",
             "match": {
-              "location": "step_definitions/steps.js:63"
+              "location": "step_definitions/steps.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 3972
+              "duration": 2012
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 36,
-            "name": "I add a cheapest inbound price",
+            "name": "I add a cheapest outbound price",
             "match": {
-              "location": "step_definitions/steps.js:68"
+              "location": "step_definitions/steps.js:63"
             },
             "result": {
               "status": "passed",
-              "duration": 1197
+              "duration": 4959
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 37,
-            "name": "I skip the travel extras",
+            "name": "I add a cheapest inbound price",
             "match": {
-              "location": "step_definitions/steps.js:51"
+              "location": "step_definitions/steps.js:68"
             },
             "result": {
               "status": "passed",
-              "duration": 733
+              "duration": 1001
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 38,
-            "name": "I proceed to checkout page",
+            "name": "I skip the travel extras",
             "match": {
-              "location": "step_definitions/steps.js:56"
+              "location": "step_definitions/steps.js:51"
             },
             "result": {
               "status": "passed",
-              "duration": 1105
+              "duration": 1100
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 39,
+            "name": "I proceed to checkout page",
+            "match": {
+              "location": "step_definitions/steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
             "name": "I fill in the passenger details",
             "match": {
               "location": "step_definitions/steps.js:73"
             },
             "result": {
               "status": "passed",
-              "duration": 2009
+              "duration": 1784
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 40,
+            "line": 41,
             "name": "I should see the selected trains in the basket",
             "match": {
               "location": "step_definitions/steps.js:88"
             },
             "result": {
               "status": "passed",
-              "duration": 86
+              "duration": 87
             }
           }
         ]
@@ -165,12 +169,16 @@
       {
         "id": "search-for-a-train-from-london-to-paris,-select-the-trains-and-add-to-basket;user-selects-lowest-inbound-price-and-lowest-outbound-price-and-add-to-basket",
         "keyword": "Scenario",
-        "line": 30,
+        "line": 31,
         "name": "User selects lowest inbound price and lowest outbound price and add to basket",
         "tags": [
           {
             "name": "@demo",
-            "line": 29
+            "line": 30
+          },
+          {
+            "name": "@demo_paralall",
+            "line": 30
           }
         ],
         "type": "scenario",
@@ -178,123 +186,131 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 31,
+            "line": 32,
             "name": "I am on Eurostar website",
             "match": {
               "location": "step_definitions/steps.js:10"
             },
             "result": {
-              "status": "failed",
-              "duration": 10800,
-              "error_message": "\n    at World.Given (/Users/sricharantodupunoori/Documents/Eurostar/EurostarE2ETests/step_definitions/steps.js:13:10)"
+              "status": "passed",
+              "duration": 7359
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 32,
+            "line": 33,
             "name": "I search for train with journey type \"Return\"",
             "match": {
               "location": "step_definitions/steps.js:17"
             },
             "result": {
-              "status": "skipped"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 33,
-            "name": "I search for a train from \"London\" to \"Paris\"",
-            "match": {
-              "location": "step_definitions/steps.js:22"
-            },
-            "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 221
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 34,
-            "name": "I search from \"10/12/2017\" to \"14/12/2017\"",
+            "name": "I search for a train from \"London\" to \"Paris\"",
             "match": {
-              "location": "step_definitions/steps.js:34"
+              "location": "step_definitions/steps.js:22"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1367
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 35,
-            "name": "I add a cheapest outbound price",
+            "name": "I search from \"10/12/2017\" to \"14/12/2017\"",
             "match": {
-              "location": "step_definitions/steps.js:63"
+              "location": "step_definitions/steps.js:34"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2582
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 36,
-            "name": "I add a cheapest inbound price",
+            "name": "I add a cheapest outbound price",
             "match": {
-              "location": "step_definitions/steps.js:68"
+              "location": "step_definitions/steps.js:63"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 2148
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 37,
-            "name": "I skip the travel extras",
+            "name": "I add a cheapest inbound price",
             "match": {
-              "location": "step_definitions/steps.js:51"
+              "location": "step_definitions/steps.js:68"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1137
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 38,
-            "name": "I proceed to checkout page",
+            "name": "I skip the travel extras",
             "match": {
-              "location": "step_definitions/steps.js:56"
+              "location": "step_definitions/steps.js:51"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 917
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 39,
+            "name": "I proceed to checkout page",
+            "match": {
+              "location": "step_definitions/steps.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1112
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
             "name": "I fill in the passenger details",
             "match": {
               "location": "step_definitions/steps.js:73"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1975
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 40,
+            "line": 41,
             "name": "I should see the selected trains in the basket",
             "match": {
               "location": "step_definitions/steps.js:88"
             },
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 89
             }
           }
         ]
