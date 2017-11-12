@@ -4,10 +4,10 @@
   "description": "",
   "main": "nightwatch.conf.js",
   "scripts": {
-    "e2e-test": "nightwatch",
-    "test": "npm run e2e-test -- --env chrome",
-    "e2e-test:firefox": "npm run e2e-test -- --env firefox",
-    "debug": "node --inspect-brk node_modules/.bin/nightwatch --env chrome"
+    "start": "nightwatch --tag demo",
+    "start:chrome": "nightwatch --tag demo --env chrome",
+    "start:parallel-single-browser": "nightwatch --tag demo_paralall --env chrome",
+    "start:parallel-multiple-browser": "nightwatch --tag demo --env chrome,firefox"
   },
   "author": "Himabindu <bindu_vajinepalli@yahoo.com>",
   "license": "MIT",
