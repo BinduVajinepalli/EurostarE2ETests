@@ -60,6 +60,16 @@ defineSupportCode(({ Given, Then, When }) => {
             .goToCheckoutPage();
   });
 
+  When(/^I add a cheapest outbound price$/, () => {
+      return resultsPage
+          .selectCheapestOutboundTrain();
+  });
+
+  When(/^I add a cheapest inbound price$/, () => {
+      return resultsPage
+          .selectCheapestInboundTrain();
+  });
+
   When(/^I fill in the passenger details$/, () => {
       return checkOutPage
             .enterFirstName("Bindu")
