@@ -1,4 +1,4 @@
-# End to end tests for Eurostar website
+# End to end tests using NightwatchJS
 
 e2e-testing
 
